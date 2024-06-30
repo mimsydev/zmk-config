@@ -36,7 +36,7 @@ ZMK_LAYER(default_layer, &trans      &trans  &trans  &trans  &trans             
 &kp TAB     &kp Q   &kp W   &kp F   &kp P   &kp B                                                                &kp J   &kp L   &kp U      &kp Y    &kp SEMI     &kp GRAVE
 &caps_word  &hrm LGUI A &hrm LALT R &hrm LCTRL S &hrm LSHIFT T &kp G                &kp M &hrm RSHIFT N &hrm RCTRL E &hrm RALT I    &hrm RGUI O     &kp SQT
 &kp ESC     &kp Z   &kp X   &kp C   &kp D   &kp V   &kp BACKSPACE  &kp DEL  &to 2    &to 1  &kp ENTER  &kp SPACE  &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-&mo MAGIC   &trans  &trans  &trans  &trans          &mo 2          &trans   &trans    &trans  &kp INSERT &mo 1              &trans  &trans     &trans   &trans    &bootloader
+&bootloader   &trans  &trans  &trans  &trans          &mo 2          &trans   &trans    &trans  &kp INSERT &mo 1              &trans  &trans     &trans   &trans    &bootloader
 )
 
 ZMK_LAYER(lower_layer, &trans      &trans  &trans  &trans  &trans                                                                                  &trans  &trans     &trans   &trans    &trans
