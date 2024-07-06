@@ -33,17 +33,17 @@ bindings = <&kp>, <&kp>;
 
 ZMK_LAYER(default_layer, &trans      &trans  &trans  &trans  &trans                                                                                  &trans  &trans     &trans   &trans    &trans
 &trans      &trans  &trans  &trans  &trans  &trans                                                               &trans  &trans  &trans     &trans   &trans       &trans
-&kp TAB     &kp Q   &kp W   &kp F   &kp P   &kp B                                                                &kp J   &kp L   &kp U      &kp Y    &kp SEMI     &kp GRAVE
+&trans      &kp Q   &kp W   &kp F   &kp P   &kp B                                                                &kp J   &kp L   &kp U      &kp Y    &kp SEMI     &kp GRAVE
 &caps_word  &hrm LGUI A &hrm LALT R &hrm LCTRL S &hrm LSHIFT T &kp G                &kp M &hrm RSHIFT N &hrm RCTRL E &hrm RALT I    &hrm RGUI O     &kp SQT
 &kp ESC     &kp Z   &kp X   &kp C   &kp D   &kp V   &kp BACKSPACE  &kp DEL  &to 2    &to 1  &kp ENTER  &kp SPACE  &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-&bootloader   &trans  &trans  &trans  &trans          &mo 1  &mo 2   &trans    &kp INSERT   &mo 2  &mo 1              &trans  &trans     &trans   &trans    &bootloader
+&bootloader   &trans  &trans  &trans  &trans          &mo 1  &mo 2   &kp TAB    &kp INSERT   &mo 2  &mo 1              &trans  &trans     &trans   &trans    &bootloader
 )
 
 ZMK_LAYER(lower_layer, &trans      &trans  &trans  &trans  &trans                                                                                  &trans  &trans     &trans   &trans    &trans
 &trans      &trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans     &trans   &trans    &trans
 &kp F1      &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                                                                  &kp F7  &kp F8  &kp F9     &kp F10  &kp F11   &kp F12
 &kp EQUAL   &hrm LGUI N1 &hrm LALT N2 &hrm LCTRL N3 &hrm LSHIFT N4  &kp N5       &kp N6  &hrm RSHIFT N7 &hrm RCTRL N8 &hrm RALT N9 &hrm RGUI N0    &kp MINUS
-&none   &kp LEFT &kp UP  &kp DOWN &kp RIGHT &none       &trans     &trans   &to 0    &to 2  &trans     &trans     &none   &none   &none      &none    &none     &none
+&none   &kp LEFT &kp UP  &kp DOWN &kp RIGHT &none       &trans     &trans   &to 0    &to 2  &trans     &trans     &none   &none   &trans      &trans    &trans     &trans
 &trans      &trans  &trans  &trans  &trans              &mo 2  &mo 0   &trans    &trans  &mo 0     &mo 2              &trans  &trans     &trans   &trans    &trans
 )
 
@@ -52,6 +52,6 @@ ZMK_LAYER(magic_layer,
 &trans      &trans    &trans    &trans    &trans    &trans                                                  &trans          &trans   &trans    &trans    &trans      &trans
 &none       &kp LBRC  &kp LBKT  &kp RBKT  &kp RBRC  &none                                                   &kp KP_DIVIDE   &kp KP_N7 &kp KP_N8  &kp KP_N9  &kp KP_MINUS &kp KP_NUMLOCK
 &none       &kp LT    &kp LPAR  &kp RPAR  &kp GT    &none                                                   &kp KP_MULTIPLY &kp KP_N4 &kp KP_N5  &kp KP_N6  &kp KP_PLUS  &none
-&none       &none     &none     &none     &none     &none   &trans     &trans   &to 1    &to 0  &trans    &trans    &kp KP_N0    &kp KP_N1   &kp KP_N2   &kp KP_N3  &kp KP_DOT          &none
+&none       &trans     &trans     &trans     &trans     &trans   &trans     &trans   &to 1    &to 0  &trans    &trans    &kp KP_N0    &kp KP_N1   &kp KP_N2   &kp KP_N3  &kp KP_DOT          &none
 &trans      &trans    &trans    &trans    &trans            &mo 0      &mo 1    &trans   &trans  &mo 1    &mo 0             &trans   &trans    &trans    &trans    &trans
 )
